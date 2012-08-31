@@ -10,10 +10,11 @@
 	<copyright>2009</copyright>
 
    <help>
-   <value><![CDATA[
-   Provides a rich editing environment using the jwysiwyg JQuery Javascript
+   <value><![CDATA[<p>Provides a rich editing environment using the jwysiwyg JQuery Javascript
    plugin. Find out more about jwysiwyg at
-   <a href="http://code.google.com/p/jwysiwyg/">http://code.google.com/p/jwysiwyg/</a>
+   <a href="http://code.google.com/p/jwysiwyg/">http://code.google.com/p/jwysiwyg/</p>
+   	<p>To make the editor available to a user, enable it on that user's User page.</p>
+   </a>
    ]]></value>
    </help>
 
