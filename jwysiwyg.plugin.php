@@ -12,13 +12,13 @@ class JWYSIWYG extends Plugin
 	
 	public function action_add_jwysiwyg_admin()
 	{
-		Stack::add('admin_header_javascript', $this->get_url() . '/jwysiwyg/jquery.wysiwyg.js');
+		Stack::add('admin_header_javascript', $this->get_url() . '/jwysiwyg/jquery.wysiwyg.js', NULL, 'jquery');
 		Stack::add('admin_stylesheet', array($this->get_url() . '/jwysiwyg/jquery.wysiwyg.css', 'screen'));
 	}
 	
 	public function action_add_jwysiwyg_template()
 	{
-		Stack::add('template_header_javascript', $this->get_url() . '/jwysiwyg/jquery.wysiwyg.js');
+		Stack::add('template_header_javascript', $this->get_url() . '/jwysiwyg/jquery.wysiwyg.js', NULL, 'jquery');
 		Stack::add('template_stylesheet', array($this->get_url() . '/jwysiwyg/jquery.wysiwyg.css', 'screen'));
 	}
 
